@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>//Es para la funcion srand(time(NULL));
+#define TAM 15
 
 int main()
 {
     char respuesta;
     char salida;
     int preguntaAleatoria;
+    int contadorPuntaje=-1;
 
     do
     {
         srand(time(NULL));
-        preguntaAleatoria = 1 + rand()%(10);
+        preguntaAleatoria = 1 + rand()%(TAM);
 
         switch (preguntaAleatoria)
         {
@@ -28,13 +30,13 @@ int main()
 
                         if (respuesta == 'a' || respuesta == 'A')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -55,13 +57,13 @@ int main()
 
                         if (respuesta == 'c' || respuesta == 'C')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -74,7 +76,7 @@ int main()
                         printf("\n¿Cual es el río mas largo de Europa Occidental?\n\n");
                         printf("A. Rio Danubio\n");
                         printf("B. Rio Sena\n");
-                        printf("C. Rio Támesis\n");
+                        printf("C. Rio Tamesis\n");
                         printf("D. Rio Rin\n\n");
                         printf("Ingrese su respuesta: ");
                         respuesta = getchar();
@@ -82,13 +84,13 @@ int main()
 
                         if (respuesta == 'd' || respuesta == 'D')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -109,13 +111,13 @@ int main()
 
                         if (respuesta == 'c' || respuesta == 'C')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -136,13 +138,13 @@ int main()
 
                         if (respuesta == 'b' || respuesta == 'B')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -163,13 +165,13 @@ int main()
 
                         if (respuesta == 'd' || respuesta == 'D')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -190,13 +192,13 @@ int main()
 
                         if (respuesta == 'a' || respuesta == 'A')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -217,13 +219,13 @@ int main()
 
                         if (respuesta == 'c' || respuesta == 'C')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -244,13 +246,13 @@ int main()
 
                         if (respuesta == 'a' || respuesta == 'A')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -271,13 +273,148 @@ int main()
 
                         if (respuesta == 'b' || respuesta == 'B')
                         {
-                            printf("\n¡La respuesta es correcta!");
+                            printf("\n¡La respuesta es correcta!\n");
                             fflush(stdin);
                             salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado y perdiste.");
+                            printf("\nEstas equivocado y perdiste.\n");
+                            fflush(stdin);
+                            salida = 1;
+
+                        }
+
+                    break;
+
+                case 11:
+
+                        printf("\n¿Quienes fueron, segun la leyenda, los dos hermanos fundadores de la ciudad de Roma?\n\n");
+                        printf("A. Hercules\n");
+                        printf("B. Perseo\n");
+                        printf("C. Romulo y Remo\n");
+                        printf("D. Aquiles\n\n");
+                        printf("Ingrese su respuesta: ");
+                        respuesta = getchar();
+
+
+                        if (respuesta == 'c' || respuesta == 'C')
+                        {
+                            printf("\n¡La respuesta es correcta!\n");
+                            fflush(stdin);
+                            salida = 0;
+
+                        }else
+                        {
+                            printf("\nEstas equivocado y perdiste.\n");
+                            fflush(stdin);
+                            salida = 1;
+
+                        }
+
+                    break;
+
+                case 12:
+
+                        printf("\n¿Que carabela no volvio del viaje en el que Colon arribo a América por primera vez?\n\n");
+                        printf("A. La Santa Maria\n");
+                        printf("B. La Niña\n");
+                        printf("C. La Pinta\n");
+                        printf("D. Ninguna de las anteriores\n\n");
+                        printf("Ingrese su respuesta: ");
+                        respuesta = getchar();
+
+
+                        if (respuesta == 'a' || respuesta == 'A')
+                        {
+                            printf("\n¡La respuesta es correcta!\n");
+                            fflush(stdin);
+                            salida = 0;
+
+                        }else
+                        {
+                            printf("\nEstas equivocado y perdiste.\n");
+                            fflush(stdin);
+                            salida = 1;
+
+                        }
+
+                    break;
+
+                case 13:
+
+                        printf("\n¿Quien fue el primer presidente de Estados Unidos?\n\n");
+                        printf("A. Thomas Jefferson\n");
+                        printf("B. Andrew Jackson\n");
+                        printf("C. Abraham Lincoln\n");
+                        printf("D. George Washington\n\n");
+                        printf("Ingrese su respuesta: ");
+                        respuesta = getchar();
+
+
+                        if (respuesta == 'd' || respuesta == 'D')
+                        {
+                            printf("\n¡La respuesta es correcta!\n");
+                            fflush(stdin);
+                            salida = 0;
+
+                        }else
+                        {
+                            printf("\nEstas equivocado y perdiste.\n");
+                            fflush(stdin);
+                            salida = 1;
+
+                        }
+
+                    break;
+
+                case 14:
+
+                        printf("\n¿Cuanto duro la Guerra de los Cien Años?\n\n");
+                        printf("A. 108\n");
+                        printf("B. 116\n");
+                        printf("C. 99\n");
+                        printf("D. 100\n\n");
+                        printf("Ingrese su respuesta: ");
+                        respuesta = getchar();
+
+
+                        if (respuesta == 'b' || respuesta == 'B')
+                        {
+                            printf("\n¡La respuesta es correcta!\n");
+                            fflush(stdin);
+                            salida = 0;
+
+                        }else
+                        {
+                            printf("\nEstas equivocado y perdiste.\n");
+                            fflush(stdin);
+                            salida = 1;
+
+                        }
+
+                    break;
+
+                case 15:
+
+                        printf("\n¿En que año el hombre piso la Luna por primera vez?\n\n");
+                        printf("A. 1897\n");
+                        printf("B. 1952\n");
+                        printf("C. 1969\n");
+                        printf("D. 1878\n\n");
+                        printf("Ingrese su respuesta: ");
+                        respuesta = getchar();
+
+
+                        if (respuesta == 'c' || respuesta == 'C')
+                        {
+                            printf("\n¡La respuesta es correcta!\n");
+                            fflush(stdin);
+                            salida = 0;
+
+                        }else
+                        {
+                            printf("\nEstas equivocado y perdiste.\n");
                             fflush(stdin);
                             salida = 1;
 
@@ -286,6 +423,9 @@ int main()
                     break;
         }
 
+        contadorPuntaje++;
+
     }while (salida == 0);
 
+    printf("\nFelicidades por intentar.\nEl total de puntos es: %i.\n", contadorPuntaje);
 }
