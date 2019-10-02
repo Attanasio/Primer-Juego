@@ -8,11 +8,11 @@ int main()
     char salida;
     int preguntaAleatoria;
 
-    srand(time(NULL));
-    preguntaAleatoria = 1 + rand()%(10);
-
     do
     {
+        srand(time(NULL));
+        preguntaAleatoria = 1 + rand()%(10);
+
         switch (preguntaAleatoria)
         {
            case 1:
@@ -29,16 +29,14 @@ int main()
                         if (respuesta == 'a' || respuesta == 'A')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para volver a intentar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -58,16 +56,14 @@ int main()
                         if (respuesta == 'c' || respuesta == 'C')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -87,16 +83,14 @@ int main()
                         if (respuesta == 'd' || respuesta == 'D')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -104,7 +98,7 @@ int main()
 
                 case 4:
 
-                        printf("\n¿Que lago baña la ciudad de Ginebra?\n\n");
+                        printf("\n¿Que lago cubre la ciudad de Ginebra?\n\n");
                         printf("A. Lago Ladoga\n");
                         printf("B. Lago Onega\n");
                         printf("C. Lago Leman\n");
@@ -116,16 +110,14 @@ int main()
                         if (respuesta == 'c' || respuesta == 'C')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -145,16 +137,14 @@ int main()
                         if (respuesta == 'b' || respuesta == 'B')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -174,16 +164,14 @@ int main()
                         if (respuesta == 'd' || respuesta == 'D')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -203,16 +191,14 @@ int main()
                         if (respuesta == 'a' || respuesta == 'A')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -232,16 +218,14 @@ int main()
                         if (respuesta == 'c' || respuesta == 'C')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -261,16 +245,14 @@ int main()
                         if (respuesta == 'a' || respuesta == 'A')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
@@ -290,23 +272,20 @@ int main()
                         if (respuesta == 'b' || respuesta == 'B')
                         {
                             printf("\n¡La respuesta es correcta!");
-                            printf("\nSeleccione 'S' para continuar: ");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 0;
 
                         }else
                         {
-                            printf("\nEstas equivocado, vuelve a intentar.");
-                            printf("\nSeleccione 'S' para continuar: ");
+                            printf("\nEstas equivocado y perdiste.");
                             fflush(stdin);
-                            salida = getchar();
+                            salida = 1;
 
                         }
 
                     break;
         }
 
-    }while (salida != 's' || salida != 'S');
-
+    }while (salida == 0);
 
 }
